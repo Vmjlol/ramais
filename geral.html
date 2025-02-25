@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Ramais - Terra Boa</title>
+    <style>
+        @media screen and (max-width: 768px) {
+            #myCanvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                z-index: -1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="myCanvas"></canvas>
+
+
+    <script src="js/script.js"></script>
+    <script>
+
+        let gMouseDownX = 0;
+        let gMouseDownY = 0;
+        let gMouseDownOffsetX = 0;
+        let gMouseDownOffsetY = 0;
+
+        function addListeners() {
+            document.getElementById('myCanvas').addEventListener('mousedown', mouseDown, false);
+            window.addEventListener('mouseup', mouseUp, false);
+        }
+
+        function mouseUp() {
+            window.removeEventListener('mousemove', divMove, true);
+        }
+
+        function mouseDown(e) {
+            gMouseDownX = e.clientX;
+            gMouseDownY = e.clientY;
+
+            var div = document.getElementById('myCanvas');
+
+            let leftPart = "";
+            if(!div.style.left)
+                leftPart+="0px";
+            else
+                leftPart = div.style.left;
+            let leftPos = leftPart.indexOf("px");
+            let leftNumString = leftPart.slice(0, leftPos);
+            gMouseDownOffsetX = gMouseDownX - parseInt(leftNumString,10);
+
+            let topPart = "";
+            if(!div.style.top)
+                topPart+="0px";     
+            else
+                topPart = div.style.top;
+            let topPos = topPart.indexOf("px");
+            let topNumString = topPart.slice(0, topPos);   
+            gMouseDownOffsetY = gMouseDownY - parseInt(topNumString,10);
+
+            window.addEventListener('mousemove', divMove, true);
+        }
+
+        function divMove(e){
+            var div = document.getElementById('myCanvas');
+            div.style.position = 'absolute';
+            let topAmount = e.clientY - gMouseDownOffsetY;
+            div.style.top = topAmount + 'px';
+            let leftAmount = e.clientX - gMouseDownOffsetX;
+            div.style.left = leftAmount + 'px';
+        }
+
+        addListeners();
+
+        fetchDataGeral();
+    </script>
+</body>
+
+</html>
