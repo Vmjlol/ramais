@@ -16,7 +16,12 @@
     </div>
     <script src="js/script.js"></script>
     <script>
-        fetchDataSocial();
+            
+        window.onload = () => {
+            fetchDataSocial();
+        setTimeout(fetchDataSocial, 100);
+        };
+
     </script>
 </body>
 

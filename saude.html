@@ -16,7 +16,12 @@
     </div>
     <script src="js/script.js"></script>
     <script>
-        fetchDataSaude();
+            
+        window.onload = () => {
+            fetchDataSaude();
+        setTimeout(fetchDataSaude, 100);
+        };
+
     </script>
 </body>
 

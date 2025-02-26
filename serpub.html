@@ -16,7 +16,12 @@
     </div>
     <script src="js/script.js"></script>
     <script>
-        fetchDataSerpub();
+            
+        window.onload = () => {
+            fetchDataSerpub();
+        setTimeout(fetchDataSerpub, 100);
+        };
+
     </script>
 </body>
 

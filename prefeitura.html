@@ -16,7 +16,12 @@
     </div>
     <script src="js/script.js"></script>
         <script>
-            fetchDataPrefeitura();
+            
+            window.onload = () => {
+                fetchDataPrefeitura();
+            setTimeout(fetchDataPrefeitura, 100);
+            };
+
         </script>
     </script>
 </body>

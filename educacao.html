@@ -16,7 +16,12 @@
     </div>
     <script src="js/script.js"></script>
     <script>
-        fetchDataEducacao();
+            
+        window.onload = () => {
+            fetchDataEducacao();
+        setTimeout(fetchDataEducacao, 100);
+        };
+
     </script>
 </body>
 
