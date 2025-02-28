@@ -12,8 +12,6 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden; 
-    height: 100%;
-    width: 100%;
     touch-action: manipulation; 
 }
 
@@ -21,23 +19,18 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    object-fit: contain;
-    touch-action: pan-x; 
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) { 
     #myCanvas {
-        width: auto;
         height: 100%; 
+        touch-action: pan-x; 
     }
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
     #myCanvas {
-        height: auto;
-        max-height: 100vh;
-        touch-action: pan-y pan-x; 
+        height: 100vh;
     }
 }
     </style>
@@ -103,7 +96,10 @@ html, body {
 
         addListeners();
 
-        fetchDataGeral();
+        window.onload = () => {
+            fetchDataGeral();
+        setTimeout(fetchDataGeral, 100);
+        };
     </script>
 </body>
 
