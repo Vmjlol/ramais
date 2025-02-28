@@ -15,15 +15,15 @@ body {
     zoom: 0.67;
 }
 
-@media screen {
-    .canvas {
-        zoom: 0.3;
-    }
-}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     .canvas {
-        zoom: 0.18;
+        width: 100%;
     }
 }
 
@@ -35,6 +35,6 @@ body {
 
 @media screen and (orientation: landscape) {
     .canvas {
-        zoom: 0.3;
+        zoom: 0.67;
     }
-}
+} 
