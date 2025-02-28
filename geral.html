@@ -7,23 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Ramais - Terra Boa</title>
     <style>
-        @media screen and (max-width: 768px) {
-            #myCanvas {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 350%;
-            }
-        }
 
-        @media screen and (orientation: landscape) {
-            #myCanvas {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 100%;
-            }
-        }
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%;
+    touch-action: manipulation; 
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: contain;
+    touch-action: pan-x; 
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) { 
+    #myCanvas {
+        width: auto;
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    #myCanvas {
+        height: auto;
+        max-height: 100vh;
+        touch-action: pan-y pan-x; 
+    }
+}
     </style>
 </head>
 

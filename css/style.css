@@ -11,30 +11,35 @@ body {
     align-items: center;
 }
 
-.canvas { 
-    zoom: 0.67;
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
     .canvas {
-        width: 100%;
+        transform: scale(1);
+        transform-origin: top left;
     }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: landscape) {
     .canvas {
-        zoom: 0.2;
+        width: 100vw; 
+        height: auto; 
+        transform: none; 
+        overflow-y: auto; 
     }
 }
 
 @media screen and (orientation: landscape) {
     .canvas {
-        zoom: 0.67;
+        width: 100vw;
+        height: auto;
+        transform: none;
+        overflow-y: auto;
     }
-} 
+}
