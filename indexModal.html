@@ -1456,6 +1456,63 @@
 																		.elementor-widget-text-editor .elementor-drop-cap-letter {
 																			display: inline-block
 																		}
+
+																		#openClick {
+																			color:white;
+																			cursor: pointer;
+																		}
+
+																		.modal {
+																			display: none;
+																			position: fixed;
+																			z-index: 1000;
+																			left: 0;
+																			top: 0;
+																			width: 100%;
+																			height: 100%;
+																			background-color: rgba(128, 128, 128, 0.8);
+																			justify-content: center;
+																			align-items: center;
+																		}
+
+																		.modal-content {
+																			background-color: white;
+																			width: 90%;
+																			height: 90%;
+																			position: relative;
+																			display: flex;
+																			flex-direction: column;
+																			justify-content: center;
+																			align-items: center;
+																			border-radius: 8px;
+																		}
+
+																		.close {
+																			position: absolute;
+																			top: 20px;
+																			right: 30px;
+																			font-size: 30px;
+																			cursor: pointer;
+																			color: black;
+																		}
+
+																		.close-btn {
+																			position: absolute;
+																			bottom: 20px;
+																			padding: 10px 20px;
+																			font-size: 16px;
+																			background-color: red;
+																			color: white;
+																			border: none;
+																			cursor: pointer;
+																			border-radius: 5px;
+																		}
+
+																		iframe {
+																			width: 90%;
+																			height: 80%;
+																			border: none;
+																		}
 																	</style>
 																	<p style="text-align: center;"><strong>Manual do
 																			Utilizador<br /></strong></p>
@@ -1556,7 +1613,8 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="geral.html" target="_blank"
+
+																		<a id="openClick" onclick="openModal('geral.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1595,7 +1653,9 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="prefeitura.html" target="_blank"
+
+
+																		<a id="openClick" onclick="openModal('prefeitura.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1640,7 +1700,9 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="saude.html" target="_blank"
+
+
+																		<a id="openClick" onclick="openModal('saude.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1679,7 +1741,7 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="educacao.html" target="_blank"
+																		<a id="openClick" onclick="openModal('educacao.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1724,7 +1786,9 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="social.html" target="_blank"
+
+
+																		<a id="openClick" onclick="openModal('social.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1764,7 +1828,8 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a href="serpub.html" target="_blank"
+
+																		<a id="openClick" onclick="openModal('serpub.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1843,15 +1908,34 @@
 		</div>
 		</script>
 
+		<div id="myModal" class="modal" style="display: none;">
+			<div class="modal-content">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<iframe id="modalFrame"></iframe>
+				<button class="close-btn" onclick="closeModal()">Fechar</button>
+			</div>
+		</div>
 
-		
+		<script>
+			function openModal(url) {
+				document.getElementById("modalFrame").src = url;
+				document.getElementById("myModal").style.display = "flex";
+			}
+
+			function closeModal() {
+				document.getElementById("myModal").style.display = "none";
+				document.getElementById("modalFrame").src = "";
+			}
+		</script>
+
+
 		<script type='text/javascript'
 			src='https://terraboa.pr.gov.br/wp-content/plugins/pojo-accessibility/assets/js/app.min.js?ver=1.0.0'
 			id='pojo-a11y-js'></script>
 		<script type='text/javascript'
 			src='https://terraboa.pr.gov.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1'
 			id='smartmenus-js'></script>
-		
+
 		<script type='text/javascript'
 			src='https://terraboa.pr.gov.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.6.5'
 			id='elementor-webpack-runtime-js'></script>
