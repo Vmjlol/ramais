@@ -39,14 +39,22 @@ function drawHeaderGeral(ctx, canvasWidth) {
     const headerHeight = 400;
     const img = new Image();
     img.src = "img/telefone.png";
+
     img.onload = function () {
         ctx.drawImage(img, 0, 0, canvasWidth, headerHeight);
-        
-        ctx.fillStyle = "#45464d"; 
+
+        const img2 = new Image();
+        img2.src = "img/drag.png";
+
+        img2.onload = function () {
+            ctx.drawImage(img2, 820, 280, 70, 100);
+        };
+
+        ctx.fillStyle = "#45464d";
         ctx.beginPath();
         ctx.roundRect(100, 120, 795, 150, 30);
         ctx.fill();
-        
+
         ctx.fillStyle = "#fff";
         ctx.font = "70px Montserrat";
         ctx.fillText("Lista de Ramais", 220, 200);
@@ -55,6 +63,7 @@ function drawHeaderGeral(ctx, canvasWidth) {
         ctx.fillText("Geral", 660, 250);
     };
 }
+
 
 function drawFooterGeral(ctx, canvasWidth, canvasHeight) {
     const footerHeight = 300;
