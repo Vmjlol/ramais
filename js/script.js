@@ -67,7 +67,7 @@ function drawHeaderGeral(ctx, canvasWidth) {
 
 function drawFooterGeral(ctx, canvasWidth, canvasHeight) {
     const footerHeight = 300;
-    const rectWidth = 1200;
+    const rectWidth = 1320;
     const rectHeight = 150;
     const rectX = canvasWidth - rectWidth - 30;
     const rectY = canvasHeight - footerHeight + 20;
@@ -81,7 +81,7 @@ function drawFooterGeral(ctx, canvasWidth, canvasHeight) {
     ctx.font = "50px Montserrat";
     const textX = rectX + 30;
     const textY = rectY + 90;
-    ctx.fillText("terraboa.pr.gov.br | 0800-115-7700 | 3641-8000", textX, textY);
+    ctx.fillText("terraboa.pr.gov.br | 0800-115-7700 | (44) 3641-8000", textX, textY);
 }
 
 function drawImageWithDataGeral(ranges, headers) {
@@ -135,7 +135,6 @@ function drawImageWithDataGeral(ranges, headers) {
         const { prefix, localizacao } = headers[range];
         const ramalWidth = ctx.measureText("999").width + 10;
         const localWidth = ctx.measureText("Serv. Públicos").width + 20;
-        const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
 
         ctx.fillText(prefix, x, y);
         ctx.fillText(localizacao, x + ramalWidth, y);
@@ -244,13 +243,10 @@ function drawImageWithDataPrefeitura(ranges, headers) {
 
     const colWidth = 2160;
     const startX = 100;
-    const lineHeight = 25;
 
     const filteredData = ranges["101-799"];
-    let maxRows = filteredData.length;
 
     const headerHeight = 200;
-    const canvasHeight = headerHeight + (maxRows + 5) * lineHeight + 50;
 
     canvas.width = 2160;
     canvas.height = 3840;
@@ -272,7 +268,6 @@ function drawImageWithDataPrefeitura(ranges, headers) {
     const { prefix, localizacao } = headers["101-799"];
     const ramalWidth = ctx.measureText("999").width + 100;
     const localWidth = ctx.measureText("Prefeitura").width + 500;
-    const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
     
     ctx.fillText(prefix, x, y);
     ctx.fillText(localizacao, x + ramalWidth, y);
@@ -389,7 +384,6 @@ function drawImageWithDataSaude(ranges, headers) {
     const { prefix, localizacao } = headers["201-299"];
     const ramalWidth = ctx.measureText("999").width + 100;
     const localWidth = ctx.measureText("Localização").width + 500;
-    const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
     
     ctx.fillText(prefix, x, y);
     ctx.fillText(localizacao, x + ramalWidth, y);
@@ -484,7 +478,6 @@ function drawImageWithDataEducacao(ranges, headers) {
     let maxRows = filteredData.length;
 
     const headerHeight = 200;
-    const canvasHeight = headerHeight + (maxRows + 5) * lineHeight + 50;
 
     canvas.width = 2160;
     canvas.height = 3840;
@@ -506,7 +499,6 @@ function drawImageWithDataEducacao(ranges, headers) {
     const { prefix, localizacao } = headers["301-399"];
     const ramalWidth = ctx.measureText("999").width + 100;
     const localWidth = ctx.measureText("Educação").width + 500;
-    const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
     
     ctx.fillText(prefix, x, y);
     ctx.fillText("Localização", x + ramalWidth, y);
@@ -601,7 +593,6 @@ function drawImageWithDataSocial(ranges, headers) {
     let maxRows = filteredData.length;
 
     const headerHeight = 200;
-    const canvasHeight = headerHeight + (maxRows + 5) * lineHeight + 50;
 
     canvas.width = 2160;
     canvas.height = 3840;
@@ -623,7 +614,6 @@ function drawImageWithDataSocial(ranges, headers) {
     const { prefix, localizacao } = headers["501-599"];
     const ramalWidth = ctx.measureText("999").width + 100;
     const localWidth = ctx.measureText("Saúde").width + 500;
-    const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
     
     ctx.fillText(prefix, x, y);
     ctx.fillText(localizacao, x + ramalWidth, y);
@@ -718,7 +708,6 @@ function drawImageWithDataSerpub(ranges, headers) {
     let maxRows = filteredData.length;
 
     const headerHeight = 200;
-    const canvasHeight = headerHeight + (maxRows + 5) * lineHeight + 50;
 
     canvas.width = 2160;
     canvas.height = 3840;
@@ -740,7 +729,6 @@ function drawImageWithDataSerpub(ranges, headers) {
     const { prefix, localizacao } = headers["601-799"];
     const ramalWidth = ctx.measureText("999").width + 100;
     const localWidth = ctx.measureText("Prefeitura").width + 500;
-    const nomeWidth = colWidth - (ramalWidth + localWidth + 30);
     
     ctx.fillText(prefix, x, y);
     ctx.fillText(localizacao, x + ramalWidth, y);

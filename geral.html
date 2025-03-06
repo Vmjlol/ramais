@@ -7,37 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Ramais - Terra Boa</title>
     <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            touch-action: manipulation;
+        }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-    touch-action: manipulation; 
-}
+        #myCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: -webkit-grab;
+        }
 
-#myCanvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: -webkit-grab;
-}
+        #myCanvas:active {
+            cursor: -webkit-grabbing;
+        }
 
-#myCanvas:active {
-    cursor: -webkit-grabbing;
-}
+        @media screen and (max-width: 768px) and (orientation: portrait) {
+            #myCanvas {
+                height: 100%;
+                touch-action: pan-x;
+            }
+        }
 
-@media screen and (max-width: 768px) and (orientation: portrait) { 
-    #myCanvas {
-        height: 100%; 
-        touch-action: pan-x; 
-    }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    #myCanvas {
-        height: 100vh;
-    }
-}
+        @media screen and (max-width: 768px) and (orientation: landscape) {
+            #myCanvas {
+                height: 100vh;
+            }
+        }
     </style>
 </head>
 
@@ -70,42 +70,40 @@ html, body {
             var div = document.getElementById('myCanvas');
 
             let leftPart = "";
-            if(!div.style.left)
-                leftPart+="0px";
+            if (!div.style.left)
+                leftPart += "0px";
             else
                 leftPart = div.style.left;
             let leftPos = leftPart.indexOf("px");
             let leftNumString = leftPart.slice(0, leftPos);
-            gMouseDownOffsetX = gMouseDownX - parseInt(leftNumString,10);
+            gMouseDownOffsetX = gMouseDownX - parseInt(leftNumString, 10);
 
             let topPart = "";
-            if(!div.style.top)
-                topPart+="0px";     
+            if (!div.style.top)
+                topPart += "0px";
             else
                 topPart = div.style.top;
             let topPos = topPart.indexOf("px");
-            let topNumString = topPart.slice(0, topPos);   
-            gMouseDownOffsetY = gMouseDownY - parseInt(topNumString,10);
+            let topNumString = topPart.slice(0, topPos);
+            gMouseDownOffsetY = gMouseDownY - parseInt(topNumString, 10);
 
             window.addEventListener('mousemove', divMove, true);
         }
 
-        function divMove(e){
+        function divMove(e) {
             var div = document.getElementById('myCanvas');
             div.style.position = 'absolute';
             let topAmount = e.clientY - gMouseDownOffsetY;
             div.style.top = topAmount + 'px';
             let leftAmount = e.clientX - gMouseDownOffsetX;
             div.style.left = leftAmount + 'px';
-
-            
         }
 
         addListeners();
 
         window.onload = () => {
             fetchDataGeral();
-        setTimeout(fetchDataGeral, 100);
+            setTimeout(fetchDataGeral, 100);
         };
     </script>
 </body>

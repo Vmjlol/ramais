@@ -1458,7 +1458,7 @@
 																		}
 
 																		#openClick {
-																			color:white;
+																			color: white;
 																			cursor: pointer;
 																		}
 
@@ -1475,6 +1475,10 @@
 																			align-items: center;
 																		}
 
+																		.modal-aberto {
+																			overflow: hidden;
+																		}
+
 																		.modal-content {
 																			background-color: white;
 																			width: 90%;
@@ -1485,6 +1489,7 @@
 																			justify-content: center;
 																			align-items: center;
 																			border-radius: 8px;
+																			overflow: hidden;
 																		}
 
 																		.close {
@@ -1501,7 +1506,7 @@
 																			bottom: 20px;
 																			padding: 10px 20px;
 																			font-size: 16px;
-																			background-color: red;
+																			background-color: #fff;
 																			color: white;
 																			border: none;
 																			cursor: pointer;
@@ -1567,7 +1572,8 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a id="openClick" onclick="openModal('http://terraboa.pr.gov.br/wp-content/uploads/2023/10/Manual-de-instrucoes-Telefone-IP-2.jpg')"
+																		<a id="openClick"
+																			onclick="openModal('http://terraboa.pr.gov.br/wp-content/uploads/2023/10/Manual-de-instrucoes-Telefone-IP-2.jpg')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1613,7 +1619,8 @@
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
 
-																		<a id="openClick" onclick="openModal('geral.html')"
+																		<a id="openClick"
+																			onclick="openModal('geral.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1654,7 +1661,8 @@
 																	<div class="elementor-button-wrapper">
 
 
-																		<a id="openClick" onclick="openModal('prefeitura.html')"
+																		<a id="openClick"
+																			onclick="openModal('prefeitura.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1701,7 +1709,8 @@
 																	<div class="elementor-button-wrapper">
 
 
-																		<a id="openClick" onclick="openModal('saude.html')"
+																		<a id="openClick"
+																			onclick="openModal('saude.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1740,7 +1749,8 @@
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
-																		<a id="openClick" onclick="openModal('educacao.html')"
+																		<a id="openClick"
+																			onclick="openModal('educacao.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1787,7 +1797,8 @@
 																	<div class="elementor-button-wrapper">
 
 
-																		<a id="openClick" onclick="openModal('social.html')"
+																		<a id="openClick"
+																			onclick="openModal('social.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1828,7 +1839,8 @@
 																<div class="elementor-widget-container">
 																	<div class="elementor-button-wrapper">
 
-																		<a id="openClick" onclick="openModal('serpub.html')"
+																		<a id="openClick"
+																			onclick="openModal('serpub.html')"
 																			class="elementor-button-link elementor-button elementor-size-xs"
 																			role="button">
 																			<span
@@ -1911,19 +1923,32 @@
 			<div class="modal-content">
 				<span class="close" onclick="closeModal()">&times;</span>
 				<iframe id="modalFrame"></iframe>
-				<button class="close-btn" onclick="closeModal()">Fechar</button>
+				<button id="closebtn" class="close-btn" onclick="closeModal()">Fechar</button>
 			</div>
 		</div>
 
 		<script>
 			function openModal(url) {
+				if (url == "saude.html") {
+					document.getElementById("closebtn").style.backgroundColor = "#532424";
+				} else if (url == "educacao.html") {
+					document.getElementById("closebtn").style.backgroundColor = "#505324";
+				} else if (url == "social.html") {
+					document.getElementById("closebtn").style.backgroundColor = "#53244f";
+				} else if (url == "serpub.html") {
+					document.getElementById("closebtn").style.backgroundColor = "#2a5324";
+				} else {
+					document.getElementById("closebtn").style.backgroundColor = "#242553";
+				}
 				document.getElementById("modalFrame").src = url;
 				document.getElementById("myModal").style.display = "flex";
+				document.body.classList.add("modal-aberto");
 			}
 
 			function closeModal() {
 				document.getElementById("myModal").style.display = "none";
 				document.getElementById("modalFrame").src = "";
+				document.body.classList.remove("modal-aberto");
 			}
 		</script>
 
