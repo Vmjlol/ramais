@@ -49,59 +49,59 @@ html, body {
     <script src="js/script.js"></script>
     <script>
 
-let startX = 0;
-let startY = 0;
-let offsetX = 0;
-let offsetY = 0;
-let isDragging = false;
+        let gMouseDownX = 0;
+        let gMouseDownY = 0;
+        let gMouseDownOffsetX = 0;
+        let gMouseDownOffsetY = 0;
 
-let canvas = document.getElementById('myCanvas');
+        function addListeners() {
+            document.getElementById('myCanvas').addEventListener('mousedown', mouseDown, false);
+            window.addEventListener('mouseup', mouseUp, false);
+        }
 
-function addEventListeners() {
-    // Mouse
-    canvas.addEventListener('mousedown', startDrag, false);
-    window.addEventListener('mouseup', stopDrag, false);
-    
-    // Toque (Touch)
-    canvas.addEventListener('touchstart', startDrag, false);
-    canvas.addEventListener('touchend', stopDrag, false);
-}
+        function mouseUp() {
+            window.removeEventListener('mousemove', divMove, true);
+        }
 
-function startDrag(e) {
-    isDragging = true;
-    
-    let clientX = e.clientX || e.touches[0].clientX;
-    let clientY = e.clientY || e.touches[0].clientY;
+        function mouseDown(e) {
+            gMouseDownX = e.clientX;
+            gMouseDownY = e.clientY;
 
-    startX = clientX - offsetX;
-    startY = clientY - offsetY;
+            var div = document.getElementById('myCanvas');
 
-    window.addEventListener('mousemove', drag, false);
-    canvas.addEventListener('touchmove', drag, false);
-}
+            let leftPart = "";
+            if(!div.style.left)
+                leftPart+="0px";
+            else
+                leftPart = div.style.left;
+            let leftPos = leftPart.indexOf("px");
+            let leftNumString = leftPart.slice(0, leftPos);
+            gMouseDownOffsetX = gMouseDownX - parseInt(leftNumString,10);
 
-function stopDrag() {
-    isDragging = false;
-    window.removeEventListener('mousemove', drag, false);
-    canvas.removeEventListener('touchmove', drag, false);
-}
+            let topPart = "";
+            if(!div.style.top)
+                topPart+="0px";     
+            else
+                topPart = div.style.top;
+            let topPos = topPart.indexOf("px");
+            let topNumString = topPart.slice(0, topPos);   
+            gMouseDownOffsetY = gMouseDownY - parseInt(topNumString,10);
 
-function drag(e) {
-    if (!isDragging) return;
+            window.addEventListener('mousemove', divMove, true);
+        }
 
-    let clientX = e.clientX || e.touches[0].clientX;
-    let clientY = e.clientY || e.touches[0].clientY;
+        function divMove(e){
+            var div = document.getElementById('myCanvas');
+            div.style.position = 'absolute';
+            let topAmount = e.clientY - gMouseDownOffsetY;
+            div.style.top = topAmount + 'px';
+            let leftAmount = e.clientX - gMouseDownOffsetX;
+            div.style.left = leftAmount + 'px';
 
-    offsetX = clientX - startX;
-    offsetY = clientY - startY;
+            
+        }
 
-    canvas.style.position = 'absolute';
-    canvas.style.left = offsetX + 'px';
-    canvas.style.top = offsetY + 'px';
-}
-
-addEventListeners();
-
+        addListeners();
 
         window.onload = () => {
             fetchDataGeral();
