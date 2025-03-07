@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista Prefeitura</title>
+    <title>Lista de ramais</title>
     <link rel="stylesheet" href="css/styleminor.css">
 </head>
 
@@ -13,15 +13,15 @@
     <div class="header">
         <div id="textHeader" class="textHeader">
             <h1>Lista de Ramais</h1>
-            <h3>Prefeitura</h3>
+            <h3 id="legenda">Geral</h3>
         </div>
         <div class="botoes">
-            <button class="botao" onclick="colorir('geral'), carregar('geral'); toggleButtons(this);" disabled>Geral</button>
-            <button class="botao" onclick="colorir('prefeitura'), carregar('prefeitura'); toggleButtons(this);">Prefeitura</button>
-            <button class="botao" onclick="colorir('saude'), carregar('saude'); toggleButtons(this);">Saúde</button>
-            <button class="botao" onclick="colorir('educacao'), carregar('educacao'); toggleButtons(this);">Educação</button>
-            <button class="botao" onclick="colorir('social'), carregar('social'); toggleButtons(this);">Social</button>
-            <button class="botao" onclick="colorir('serpub'), carregar('serpub'); toggleButtons(this);">Serviços Públicos</button>
+            <button style="background: rgb(71, 71, 71);" class="botao" onclick="colorir('geral'), carregar('geral'); toggleButtons(this);" disabled>Geral</button>
+            <button style="background: #242553;" class="botao" onclick="colorir('prefeitura'), carregar('prefeitura'); toggleButtons(this);">Prefeitura</button>
+            <button style="background: #532424;" class="botao" onclick="colorir('saude'), carregar('saude'); toggleButtons(this);">Saúde</button>
+            <button style="background: #505324;" class="botao" onclick="colorir('educacao'), carregar('educacao'); toggleButtons(this);">Educação</button>
+            <button style="background: #53244f;" class="botao" onclick="colorir('social'), carregar('social'); toggleButtons(this);">Social</button>
+            <button style="background: #2a5324;" class="botao" onclick="colorir('serpub'), carregar('serpub'); toggleButtons(this);">Serviços Públicos</button>
         </div>
     </div>
 

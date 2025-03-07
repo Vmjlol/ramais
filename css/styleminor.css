@@ -108,16 +108,15 @@ table {
 .botao {
     font-weight: bolder;
     border: none;
-    background: lightgray;
-    color: rgb(63, 62, 62);
+    color: white;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
 }
 
 .botao:disabled {
-    background-color: gray;
-    color: white;
+    background: #c2c1c1 !important;
+    color: rgb(97, 95, 95);
     cursor: default;
 }
 

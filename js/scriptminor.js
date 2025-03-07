@@ -34,6 +34,7 @@ let carregar = (filtro) => {
                 let dados = data[i];
 
                 if (filtro == 'prefeitura') {
+                    document.getElementById('legenda').innerHTML = 'Prefeitura';
                     if (dados.tag == "p1" || dados.tag == "p2") {
                         newHTML += `
                         <tr class="${dados.tag}">
@@ -44,6 +45,7 @@ let carregar = (filtro) => {
                         `
                     }
                 } else if (filtro == 'saude') {
+                    document.getElementById('legenda').innerHTML = 'Saúde';
                     if (dados.ramal >= 200 && dados.ramal <= 299) {
                         newHTML += `
                         <tr class="${dados.tag}">
@@ -54,6 +56,7 @@ let carregar = (filtro) => {
                         `
                     }
                 } else if (filtro == 'educacao') {
+                    document.getElementById('legenda').innerHTML = 'Educação';
                     if (dados.ramal >= 300 && dados.ramal <= 399) {
                         newHTML += `
                         <tr class="${dados.tag}">
@@ -64,6 +67,7 @@ let carregar = (filtro) => {
                         `
                     }
                 } else if (filtro == 'social') {
+                    document.getElementById('legenda').innerHTML = 'Assistência Social';
                     if (dados.ramal >= 500 && dados.ramal <= 599) {
                         newHTML += `
                         <tr class="${dados.tag}">
@@ -74,7 +78,9 @@ let carregar = (filtro) => {
                         `
                     }
                 } else if (filtro == 'serpub') {
-                    if (dados.ramal >= 200 && dados.ramal <= 299) {
+
+                    if (dados.ramal >= 600 && dados.ramal <= 799) {
+                        document.getElementById('legenda').innerHTML = 'Serviços Públicos, Esporte e Previdência';
                         newHTML += `
                         <tr class="${dados.tag}">
                             <td>${dados.ramal}</td>
@@ -84,6 +90,7 @@ let carregar = (filtro) => {
                         `
                     }
                 } else {
+                    document.getElementById('legenda').innerHTML = 'Geral';
                     newHTML += `
                     <tr class="${dados.tag}">
                         <td>${dados.ramal}</td>
