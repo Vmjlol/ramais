@@ -115,6 +115,12 @@ table {
     cursor: pointer;
 }
 
+.botao:disabled {
+    background-color: gray;
+    color: white;
+    cursor: default;
+}
+
 
 
 
