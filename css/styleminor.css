@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-image: url("/img/telefone2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.textHeader {
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.textFooter {
+    border-radius: 10px;
+    margin-right: 100px;
+    padding: 20px;
+    width: 700px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    margin: 0;
+}
+
+.tabela {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: justify;
+    justify-items: center;
+    font-size: 30px;
+}
+
+th {
+    background-color: #000;
+    color: white;
+}
+
+.p1, .s1, .e1, .soc1, .serpub1 {
+    background-color: #f0f0f0;
+}
+
+.p2, .s2, .e2, .soc2, .serpub2 {
+    background-color: #ffffff;
+}
+
+table {
+    width: 90%;
+    table-layout: fixed;
+}
+
+.botoes {
+    background: none;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao {
+    font-weight: bolder;
+    border: none;
+    background: lightgray;
+    color: rgb(63, 62, 62);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    * {
+        font-size: 10px;
+    }
+
+    body {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .textHeader {
+       zoom: 0.5;
+       margin: 0;
+    }
+
+    .footer {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .textFooter {
+        width: 80%;
+       zoom: 0.5;
+       margin: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 20px;
+    }
+
+    .tabela {
+        font-size: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+   
+    .botoes {
+        zoom: 0.5;
+    }
+}

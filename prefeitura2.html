@@ -5,163 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Prefeitura</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-        * {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: ghostwhite;
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            background-image: url("img/telefone2.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-        }
-
-        .textHeader {
-            border-radius: 10px;
-            margin-left: 50px;
-            padding: 20px;
-            width: 500px;
-            height: 50px;
-            background-color: #242553;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .footer {
-            display: flex;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-            justify-content: flex-end;
-        }
-
-        .textFooter {
-            border-radius: 10px;
-            margin-right: 100px;
-            padding: 20px;
-            width: 700px;
-            height: 50px;
-            background-color: #242553;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: white;
-            margin: 0;
-        }
-
-        .tabela {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 30px;
-            text-align: justify;
-            justify-items: center;
-            font-size: 30px;
-        }
-
-        th {
-            background-color: #242553;
-            color: white;
-        }
-
-        .p1 {
-            background-color: #f0f0f0;
-        }
-
-        .p2 {
-            background-color: #ffffff;
-        }
-
-        table {
-            width: 90%;
-            table-layout: fixed;
-        }
-
-        @media screen and (max-width: 768px) {
-
-            * {
-                font-size: 10px;
-            }
-
-            body {
-                margin: 5px;
-                display: flex;
-                flex-direction: column;
-            }
-
-            .header {
-                height: 100px;
-                display: flex;
-                justify-content: center;
-            }
-
-            .textHeader {
-               zoom: 0.5;
-               margin: 0;
-            }
-
-            .footer {
-                height: 80px;
-                display: flex;
-                justify-content: center;
-            }
-
-            .textFooter {
-                width: 80%;
-               zoom: 0.5;
-               margin: 0;
-            }
-
-            h1,
-            h2,
-            h3 {
-                font-size: 20px;
-            }
-
-            .tabela {
-                font-size: 20px;
-            }
-
-            table {
-                width: 100%;
-            }
-
-        }
-    </style>
+    <link rel="stylesheet" href="css/styleminor.css">
 </head>
 
-<body>
+<body onload="colorir('geral'), carregar('geral')">
 
     <div class="header">
-        <div class="textHeader">
+        <div id="textHeader" class="textHeader">
             <h1>Lista de Ramais</h1>
             <h3>Prefeitura</h3>
+        </div>
+        <div class="botoes">
+            <button class="botao" onclick="colorir('geral'), carregar('geral'); toggleButtons(this);">Geral</button>
+            <button class="botao" onclick="colorir('prefeitura'), carregar('prefeitura'); toggleButtons(this);">Prefeitura</button>
+            <button class="botao" onclick="colorir('saude'), carregar('saude'); toggleButtons(this);">Saúde</button>
+            <button class="botao" onclick="colorir('educacao'), carregar('educacao'); toggleButtons(this);">Educação</button>
+            <button class="botao" onclick="colorir('social'), carregar('social'); toggleButtons(this);">Social</button>
+            <button class="botao" onclick="colorir('serpub'), carregar('serpub'); toggleButtons(this);">Serviços Públicos</button>
         </div>
     </div>
 
@@ -185,7 +45,7 @@
     </div>
 
     <div class="footer">
-        <div class="textFooter">
+        <div id="textFooter" class="textFooter">
             <h2>terraboa.pr.gov.br | 0800-115-7700 | (44) 3641-8000</h2>
         </div>
     </div>
@@ -194,42 +54,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-
+    <script src="js/scriptminor.js"></script>
     <script>
+        function toggleButtons(clickedButton) {
+            let buttons = document.querySelectorAll("button");
 
-        let carregar = () => {
-            let trRes = document.querySelector(".ramalTeste");
-
-            fetch(`https://raw.githubusercontent.com/Vmjlol/api-telefones/main/api.json`)
-                .then((response) => response.json())
-                .then((data) => {
-                    let row = document.querySelector('.ramalTeste')
-                    let newHTML = ``
-                    for (let i = 0; i < data.length; i++) {
-                        let dados = data[i];
-
-                        if (dados.tag == "p1" || dados.tag == "p2") {
-                            newHTML += `
-                            <tr class="${dados.tag}">
-                                <td>${dados.ramal}</td>
-                                <td>${dados.localizacao}</td>
-                                <td>${dados.nome}</td>
-                            </tr>
-                            `
-                        }
-
-
-
-                    }
-                    document.getElementById('tbody').innerHTML = newHTML;
-                });
+            buttons.forEach(button => {
+                if (button === clickedButton) {
+                    button.disabled = true;
+                } else {
+                    button.disabled = false;
+                }
+            });
         }
-
-
-        carregar();
-
     </script>
-
 </body>
 
 </html>
