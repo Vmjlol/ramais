@@ -82,11 +82,19 @@ th {
     color: white;
 }
 
-.p1, .s1, .e1, .soc1, .serpub1 {
+.p1,
+.s1,
+.e1,
+.soc1,
+.serpub1 {
     background-color: #f0f0f0;
 }
 
-.p2, .s2, .e2, .soc2, .serpub2 {
+.p2,
+.s2,
+.e2,
+.soc2,
+.serpub2 {
     background-color: #ffffff;
 }
 
@@ -155,8 +163,8 @@ table {
     }
 
     .textHeader {
-       zoom: 0.5;
-       margin: 0;
+        zoom: 0.5;
+        margin: 0;
     }
 
     .footer {
@@ -167,8 +175,8 @@ table {
 
     .textFooter {
         width: 80%;
-       zoom: 0.5;
-       margin: 0;
+        zoom: 0.5;
+        margin: 0;
     }
 
     h1,
@@ -184,7 +192,7 @@ table {
     table {
         width: 100%;
     }
-   
+
     .botoes {
         zoom: 0.5;
     }
@@ -197,4 +205,35 @@ table {
         justify-content: space-around;
         gap: 10px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.tabela {
+    font-size: 20px;
+}
+
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.textHeader {
+    zoom: 0.7;
+    margin: 0;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.textFooter {
+    width: 60%;
+    zoom: 0.7;
+    margin: 0;
+}
+
 }
