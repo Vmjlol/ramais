@@ -16,7 +16,6 @@ function colorir(color) {
     }
 
     document.getElementById("textHeader").style.backgroundColor = color;
-    document.getElementById("textFooter").style.backgroundColor = color;
 
     let thTable = document.getElementsByTagName("th");
     for (var i = 0; i < thTable.length; i++) {
