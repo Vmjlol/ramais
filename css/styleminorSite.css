@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-* {
-    font-family: 'Montserrat', sans-serif !important;
-}
-
 body {
     margin: 0 !important;
     padding: 0 !important;
@@ -185,18 +181,6 @@ table tbody > tr:nth-child(odd) > th {
     }
 
     .textHeader {
-        zoom: 0.5 !important;
-        margin: 0 !important;
-    }
-
-    .footer {
-        height: 80px !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
-
-    .textFooter {
-        width: 80% !important;
         zoom: 0.5 !important;
         margin: 0 !important;
     }
