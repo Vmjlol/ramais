@@ -16,6 +16,7 @@ function colorir(color) {
     }
 
     document.getElementById("textHeader").style.backgroundColor = color;
+    document.getElementById("textFooter").style.backgroundColor = color;
 
     let thTable = document.getElementsByTagName("th");
     for (var i = 0; i < thTable.length; i++) {
@@ -25,7 +26,7 @@ function colorir(color) {
 
 
 let carregar = (filtro) => {
-    fetch(`https://raw.githubusercontent.com/Vmjlol/api-telefones/main/api.json`)
+    fetch(`./../files/Ramais/api/ramais.json`)
         .then((response) => response.json())
         .then((data) => {
             let newHTML = ``
