@@ -1,0 +1,1194 @@
+[
+    {
+        "ramal": 102,
+        "nome": "Valtinho Peres",
+        "funcao": "Prefeito",
+        "departamento": "Gabinete",
+        "localizacao": "Prefeito",
+        "tag": "p1"
+    },
+    {
+        "ramal": 103,
+        "nome": "Renatinho",
+        "funcao": "Assessor",
+        "departamento": "Gabinete",
+        "localizacao": "Gabinete",
+        "tag": "p1"
+    },
+    {
+        "ramal": 104,
+        "nome": "Toninho",
+        "funcao": "Sec. Adm Geral",
+        "departamento": "Gabinete",
+        "localizacao": "Gabinete",
+        "tag": "p1"
+    },
+    {
+        "ramal": 105,
+        "nome": "Mara",
+        "funcao": "Assessora",
+        "departamento": "Gabinete",
+        "localizacao": "Gabinete",
+        "tag": "p1"
+    },
+    {
+        "ramal": 110,
+        "nome": "Cleber",
+        "funcao": "Diretor TI",
+        "departamento": "TI",
+        "localizacao": "TI",
+        "tag": "p2"
+    },
+    {
+        "ramal": 111,
+        "nome": "Valter",
+        "funcao": "Administrativo",
+        "departamento": "TI",
+        "localizacao": "TI",
+        "tag": "p2"
+    },
+    {
+        "ramal": 112,
+        "nome": "Matheus",
+        "funcao": "Administrativo",
+        "departamento": "TI",
+        "localizacao": "TI",
+        "tag": "p2"
+    },
+    {
+        "ramal": 115,
+        "nome": "Marcio/Paula",
+        "funcao": "Advogados",
+        "departamento": "Jurídico",
+        "localizacao": "Jurídico",
+        "tag": "p1"
+    },
+    {
+        "ramal": 116,
+        "nome": "José Augusto",
+        "funcao": "Advogado",
+        "departamento": "Jurídico",
+        "localizacao": "Jurídico",
+        "tag": "p1"
+    },
+    {
+        "ramal": 120,
+        "nome": "Andressa",
+        "funcao": "Administrativo",
+        "departamento": "Recursos Humanos",
+        "localizacao": "RH",
+        "tag": "p2"
+    },
+    {
+        "ramal": 121,
+        "nome": "Karen",
+        "funcao": "Administrativo",
+        "departamento": "Recursos Humanos",
+        "localizacao": "RH",
+        "tag": "p2"
+    },
+    {
+        "ramal": 122,
+        "nome": "Anselmo",
+        "funcao": "Administrativo",
+        "departamento": "Recursos Humanos",
+        "localizacao": "RH",
+        "tag": "p2"
+    },
+    {
+        "ramal": 125,
+        "nome": "Valdemir",
+        "funcao": "Cont. Interno",
+        "departamento": "Cont. Interno",
+        "localizacao": "Cont. Interno",
+        "tag": "p1"
+    },
+    {
+        "ramal": 130,
+        "nome": "Imprensa",
+        "funcao": "Imprensa",
+        "departamento": "Gabinete",
+        "localizacao": "Imprensa",
+        "tag": "p2"
+    },
+    {
+        "ramal": 145,
+        "nome": "Cozinha",
+        "funcao": "Daiane/Silvana",
+        "departamento": "Adm. Geral",
+        "localizacao": "Prefeitura",
+        "tag": "p1"
+    },
+    {
+        "ramal": 201,
+        "nome": "Elena",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 202,
+        "nome": "Lucas",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 203,
+        "nome": "Raquel",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 204,
+        "nome": "Leuktembergg",
+        "funcao": "Sec. de Saúde",
+        "departamento": "Saúde",
+        "localizacao": "Sec. Saúde",
+        "tag": "p2"
+    },
+    {
+        "ramal": 205,
+        "nome": "Camila",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 206,
+        "nome": "Fabiana",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 207,
+        "nome": "Saúde",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 208,
+        "nome": "Mariely",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Prefeitura",
+        "tag": "p2"
+    },
+    {
+        "ramal": 212,
+        "nome": "Regiane",
+        "funcao": "Ouvidoria",
+        "departamento": "Saúde",
+        "localizacao": "Ouvidoria",
+        "tag": "p2"
+    },
+    {
+        "ramal": 213,
+        "nome": "Hetony",
+        "funcao": "Transporte",
+        "departamento": "Saúde",
+        "localizacao": "Transporte",
+        "tag": "p2"
+    },
+    {
+        "ramal": 214,
+        "nome": "Giselle/Elisangela",
+        "funcao": "Farmácia",
+        "departamento": "Saúde",
+        "localizacao": "Farmácia",
+        "tag": "p2"
+    },
+    {
+        "ramal": 220,
+        "nome": "Amanda",
+        "funcao": "Agendamento",
+        "departamento": "Saúde",
+        "localizacao": "Agendamento",
+        "tag": "p2"
+    },
+    {
+        "ramal": 221,
+        "nome": "Guilherme",
+        "funcao": "Agendamento",
+        "departamento": "Saúde",
+        "localizacao": "Agendamento",
+        "tag": "p2"
+    },
+    {
+        "ramal": 222,
+        "nome": "Debora",
+        "funcao": "Agendamento",
+        "departamento": "Saúde",
+        "localizacao": "Agendamento",
+        "tag": "p2"
+    },
+    {
+        "ramal": 230,
+        "nome": "Cassiana Verônica",
+        "funcao": "Vigilância",
+        "departamento": "Saúde",
+        "localizacao": "Vigilância",
+        "tag": "s2"
+    },
+    {
+        "ramal": 231,
+        "nome": "Anderson",
+        "funcao": "Vigilância",
+        "departamento": "Saúde",
+        "localizacao": "Vigilância",
+        "tag": "s2"
+    },
+    {
+        "ramal": 232,
+        "nome": "Paulo Dezoti",
+        "funcao": "Dir. Vigilância",
+        "departamento": "Saúde",
+        "localizacao": "Vigilância",
+        "tag": "s2"
+    },
+    {
+        "ramal": 235,
+        "nome": "Cintia/Cassiana/Paulista",
+        "funcao": "Epidemiologia",
+        "departamento": "Saúde",
+        "localizacao": "Vigilância",
+        "tag": "s2"
+    },
+    {
+        "ramal": 236,
+        "nome": "Levi",
+        "funcao": "Endemias",
+        "departamento": "Saúde",
+        "localizacao": "UBS Miguel",
+        "tag": "s1"
+    },
+    {
+        "ramal": 240,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 241,
+        "nome": "Refeitório",
+        "funcao": "Refeitório",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 242,
+        "nome": "Vinícius",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 243,
+        "nome": "Posto 01",
+        "funcao": "Posto 01",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 244,
+        "nome": "Lorena",
+        "funcao": "Farmácia",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 245,
+        "nome": "Sala Médica",
+        "funcao": "Enfermagem",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 246,
+        "nome": "André",
+        "funcao": "Raio-X",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 247,
+        "nome": "Cacia",
+        "funcao": "Dir. do Hospital",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 248,
+        "nome": "Pronto Socorro",
+        "funcao": "Pronto Socorro",
+        "departamento": "Saúde",
+        "localizacao": "Hospital Municipal",
+        "tag": "s2"
+    },
+    {
+        "ramal": 250,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 251,
+        "nome": "Coordenação",
+        "funcao": "Coordenação",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 252,
+        "nome": "Odonto 01",
+        "funcao": "Odontologia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 253,
+        "nome": "Odonto 02",
+        "funcao": "Odontologia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 254,
+        "nome": "Sala ACS",
+        "funcao": "Sala ACS",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 255,
+        "nome": "Fisioterapia",
+        "funcao": "Fisioterapia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 256,
+        "nome": "Preparo",
+        "funcao": "Preparo",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 257,
+        "nome": "Farmácia",
+        "funcao": "Farmácia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Bartira",
+        "tag": "s1"
+    },
+    {
+        "ramal": 260,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "UBS Emília",
+        "tag": "s2"
+    },
+    {
+        "ramal": 261,
+        "nome": "Coordenação",
+        "funcao": "Coordenação",
+        "departamento": "Saúde",
+        "localizacao": "UBS Emília",
+        "tag": "s2"
+    },
+    {
+        "ramal": 262,
+        "nome": "Sala ACS",
+        "funcao": "Sala ACS",
+        "departamento": "Saúde",
+        "localizacao": "UBS Emília",
+        "tag": "s2"
+    },
+    {
+        "ramal": 265,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "UBS Malu",
+        "tag": "s1"
+    },
+    {
+        "ramal": 266,
+        "nome": "Coordenação",
+        "funcao": "Coordenação",
+        "departamento": "Saúde",
+        "localizacao": "UBS Malu",
+        "tag": "s1"
+    },
+    {
+        "ramal": 270,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "UBS Miguel",
+        "tag": "s2"
+    },
+    {
+        "ramal": 271,
+        "nome": "Farmácia",
+        "funcao": "Farmácia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Miguel",
+        "tag": "s2"
+    },
+    {
+        "ramal": 272,
+        "nome": "Sala ACS",
+        "funcao": "Sala ACS",
+        "departamento": "Saúde",
+        "localizacao": "UBS Miguel",
+        "tag": "s2"
+    },
+    {
+        "ramal": 275,
+        "nome": "Cidinha",
+        "funcao": "Recepção",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 276,
+        "nome": "Cristiane",
+        "funcao": "Vacina",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 277,
+        "nome": "Sala ACS",
+        "funcao": "Sala ACS",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 278,
+        "nome": "Farmácia",
+        "funcao": "Farmácia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 279,
+        "nome": "Odontologia",
+        "funcao": "Odontologia",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 280,
+        "nome": "Odécio",
+        "funcao": "Coordenação",
+        "departamento": "Saúde",
+        "localizacao": "UBS Salvador(Vila)",
+        "tag": "s1"
+    },
+    {
+        "ramal": 285,
+        "nome": "Lecilda",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "CAPS",
+        "tag": "s2"
+    },
+    {
+        "ramal": 286,
+        "nome": "Médicos",
+        "funcao": "Administrativo",
+        "departamento": "Saúde",
+        "localizacao": "CAPS",
+        "tag": "s2"
+    },
+    {
+        "ramal": 301,
+        "nome": "Marta",
+        "funcao": "Administrativo",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 302,
+        "nome": "Gizele",
+        "funcao": "Administrativo",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 303,
+        "nome": "Elaine",
+        "funcao": "Administrativo",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 304,
+        "nome": "Rosane",
+        "funcao": "Sec. de Educação",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 305,
+        "nome": "Viviane",
+        "funcao": "Administrativo",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 306,
+        "nome": "Diemes",
+        "funcao": "Administrativo",
+        "departamento": "Educação",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 309,
+        "nome": "Direção de Cultura",
+        "funcao": "Administrativo",
+        "departamento": "Cultura",
+        "localizacao": "Educação",
+        "tag": "e1"
+    },
+    {
+        "ramal": 310,
+        "nome": "Henrique",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "EM Princesa Isabel",
+        "tag": "e2"
+    },
+    {
+        "ramal": 311,
+        "nome": "Marta Saragiotto",
+        "funcao": "Pedagoga",
+        "departamento": "Educação",
+        "localizacao": "EM Princesa Isabel",
+        "tag": "e2"
+    },
+    {
+        "ramal": 315,
+        "nome": "Rosiane",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "EM Therezinha",
+        "tag": "e1"
+    },
+    {
+        "ramal": 316,
+        "nome": "Marcia",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "EM Therezinha",
+        "tag": "e1"
+    },
+    {
+        "ramal": 317,
+        "nome": "Cleide/Fatima",
+        "funcao": "Pedagogia",
+        "departamento": "Educação",
+        "localizacao": "EM Therezinha",
+        "tag": "e1"
+    },
+    {
+        "ramal": 320,
+        "nome": "Katsolene",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "EM Monteiro L.",
+        "tag": "e2"
+    },
+    {
+        "ramal": 321,
+        "nome": "Willian",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "EM Monteiro L.",
+        "tag": "e2"
+    },
+    {
+        "ramal": 325,
+        "nome": "Katia",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "EM Irene Mendes",
+        "tag": "e1"
+    },
+    {
+        "ramal": 326,
+        "nome": "Naiane",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "EM Irene Mendes",
+        "tag": "e1"
+    },
+    {
+        "ramal": 330,
+        "nome": "Rozilda",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "EM Adriano Franco",
+        "tag": "e2"
+    },
+    {
+        "ramal": 331,
+        "nome": "Fernanda",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "EM Adriano Franco",
+        "tag": "e2"
+    },
+    {
+        "ramal": 335,
+        "nome": "Adalgisa",
+        "funcao": "Coordenação",
+        "departamento": "Educação",
+        "localizacao": "EM Manuel Rosa",
+        "tag": "e1"
+    },
+    {
+        "ramal": 340,
+        "nome": "Elaine",
+        "funcao": "",
+        "departamento": "Educação",
+        "localizacao": "CMEI Tia Maria",
+        "tag": "e2"
+    },
+    {
+        "ramal": 341,
+        "nome": "Marinez",
+        "funcao": "",
+        "departamento": "Educação",
+        "localizacao": "CMEI Tia Maria",
+        "tag": "e2"
+    },
+    {
+        "ramal": 345,
+        "nome": "Henrique",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "CMEI Criança Feliz",
+        "tag": "e1"
+    },
+    {
+        "ramal": 346,
+        "nome": "Michele",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "CMEI Criança Feliz",
+        "tag": "e1"
+    },
+    {
+        "ramal": 350,
+        "nome": "Heliandra",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "CMEI M. das Dores",
+        "tag": "e2"
+    },
+    {
+        "ramal": 351,
+        "nome": "Sabrina",
+        "funcao": "Secretaria",
+        "departamento": "Educação",
+        "localizacao": "CMEI M. das Dores",
+        "tag": "e2"
+    },
+    {
+        "ramal": 355,
+        "nome": "Marciane",
+        "funcao": "Diretoria",
+        "departamento": "Educação",
+        "localizacao": "CMEI Peq. Polegar",
+        "tag": "e1"
+    },
+    {
+        "ramal": 356,
+        "nome": "Sala Professores",
+        "funcao": "Sala Professores",
+        "departamento": "Educação",
+        "localizacao": "CMEI Peq. Polegar",
+        "tag": "e1"
+    },
+    {
+        "ramal": 360,
+        "nome": "Maria",
+        "funcao": "Pedagogia",
+        "departamento": "Educação",
+        "localizacao": "CMEI Maria Gilda",
+        "tag": "e2"
+    },
+    {
+        "ramal": 361,
+        "nome": "Sala Professores",
+        "funcao": "Sala Professores",
+        "departamento": "Educação",
+        "localizacao": "CMEI Maria Gilda",
+        "tag": "e2"
+    },
+    {
+        "ramal": 365,
+        "nome": "Adalgisa",
+        "funcao": "Coordenação",
+        "departamento": "Educação",
+        "localizacao": "CMEI Zilda Arns",
+        "tag": "e1"
+    },
+    {
+        "ramal": 370,
+        "nome": "Secretaria",
+        "funcao": "Secretaria.",
+        "departamento": "Educação",
+        "localizacao": "Biblioteca Cidadã",
+        "tag": "e2"
+    },
+    {
+        "ramal": 401,
+        "nome": "Valdir",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 402,
+        "nome": "Samara",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 403,
+        "nome": "Bianca",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 404,
+        "nome": "Ricardinho",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 405,
+        "nome": "Luiz",
+        "funcao": "Contador",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 406,
+        "nome": "Paulinho",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 407,
+        "nome": "Administrativo",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 408,
+        "nome": "Renata",
+        "funcao": "Administrativo",
+        "departamento": "Fazenda",
+        "localizacao": "Contabilidade",
+        "tag": "p1"
+    },
+    {
+        "ramal": 409,
+        "nome": "Simone/Nayara",
+        "funcao": "Sec. da Fazenda",
+        "departamento": "Fazenda",
+        "localizacao": "Sec. Fazenda",
+        "tag": "p1"
+    },
+    {
+        "ramal": 420,
+        "nome": "Flauzio/Kiko",
+        "funcao": "Fiscalização",
+        "departamento": "Tributação",
+        "localizacao": "Fiscalização",
+        "tag": "p2"
+    },
+    {
+        "ramal": 421,
+        "nome": "Tributação",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 422,
+        "nome": "Marco",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 423,
+        "nome": "Ana Paula",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 424,
+        "nome": "João Paulo",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 425,
+        "nome": "Rozi",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 426,
+        "nome": "Crézio",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Dir. Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 427,
+        "nome": "Vinicius",
+        "funcao": "Administrativo",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 428,
+        "nome": "Tributação",
+        "funcao": "Dir. Trib/Fisc",
+        "departamento": "Tributação",
+        "localizacao": "Tributação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 440,
+        "nome": "Katia/Heloisa",
+        "funcao": "Dir. do Compras",
+        "departamento": "Compras",
+        "localizacao": "Compras",
+        "tag": "p1"
+    },
+    {
+        "ramal": 441,
+        "nome": "Geovana",
+        "funcao": "Administrativo",
+        "departamento": "Compras",
+        "localizacao": "Compras",
+        "tag": "p1"
+    },
+    {
+        "ramal": 442,
+        "nome": "Adriely",
+        "funcao": "Administrativo",
+        "departamento": "Compras",
+        "localizacao": "Compras",
+        "tag": "p1"
+    },
+    {
+        "ramal": 450,
+        "nome": "Marcela",
+        "funcao": "Licitação",
+        "departamento": "Administração Geral",
+        "localizacao": "Licitação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 451,
+        "nome": "Valéria",
+        "funcao": "Licitação",
+        "departamento": "Administração Geral",
+        "localizacao": "Licitação",
+        "tag": "p2"
+    },
+    {
+        "ramal": 460,
+        "nome": "Anderson Butura",
+        "funcao": "Dir. Patrimônio",
+        "departamento": "Frotas e Patrimônio",
+        "localizacao": "Patrimônio",
+        "tag": "p10"
+    },
+    {
+        "ramal": 501,
+        "nome": "Rosa",
+        "funcao": "Administrativo",
+        "departamento": "Assist. Social",
+        "localizacao": "Assist. Social",
+        "tag": "p2"
+    },
+    {
+        "ramal": 502,
+        "nome": "Lourdes",
+        "funcao": "Administrativo",
+        "departamento": "Assist. Social",
+        "localizacao": "Assist. Social",
+        "tag": "p2"
+    },
+    {
+        "ramal": 503,
+        "nome": "Social",
+        "funcao": "Administrativo",
+        "departamento": "Assist. Social",
+        "localizacao": "Assist. Social",
+        "tag": "p3"
+    },
+    {
+        "ramal": 504,
+        "nome": "Aline",
+        "funcao": "Administrativo",
+        "departamento": "Assist. Social",
+        "localizacao": "Assist. Social",
+        "tag": "p2"
+    },
+    {
+        "ramal": 505,
+        "nome": "Sueli Peres",
+        "funcao": "Sec. Social",
+        "departamento": "Assist. Social",
+        "localizacao": "Sec. Social",
+        "tag": "p2"
+    },
+        {
+        "ramal": 510,
+        "nome": "Capela Mortuária",
+        "funcao": "Capela Mortuária",
+        "departamento": "Assist. Social",
+        "localizacao": "Capela Mortuária",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 520,
+        "nome": "Sueli",
+        "funcao": "Dir. CECON",
+        "departamento": "Assist. Social",
+        "localizacao": "CECON",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 525,
+        "nome": "Silvana",
+        "funcao": "Sec. CCCA",
+        "departamento": "Assist. Social",
+        "localizacao": "CCCA",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 526,
+        "nome": "Valdir",
+        "funcao": "CCCA",
+        "departamento": "Assist. Social",
+        "localizacao": "CCCA",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 530,
+        "nome": "Recepção",
+        "funcao": "Recepção",
+        "departamento": "Assist. Social",
+        "localizacao": "Conselho Tutelar",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 531,
+        "nome": "Conselheiros",
+        "funcao": "Conselheiros",
+        "departamento": "Assist. Social",
+        "localizacao": "Conselho Tutelar",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 535,
+        "nome": "Mariane/Recepção",
+        "funcao": "CRAS",
+        "departamento": "Assist. Social",
+        "localizacao": "CRAS",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 536,
+        "nome": "Amanda",
+        "funcao": "CRAS",
+        "departamento": "Assist. Social",
+        "localizacao": "CRAS",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 537,
+        "nome": "Karina",
+        "funcao": "CRAS",
+        "departamento": "Assist. Social",
+        "localizacao": "CRAS",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 540,
+        "nome": "Recepção",
+        "funcao": "CREAS",
+        "departamento": "Assist. Social",
+        "localizacao": "CREAS",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 541,
+        "nome": "Multidisciplinar",
+        "funcao": "CREAS",
+        "departamento": "Assist. Social",
+        "localizacao": "CREAS",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 545,
+        "nome": "Paulinho",
+        "funcao": "NF Prod. Rural",
+        "departamento": "Assist. Social",
+        "localizacao": "Portal da Cidadania",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 546,
+        "nome": "Daniel",
+        "funcao": "Junta Militar",
+        "departamento": "Assist. Social",
+        "localizacao": "Portal da Cidadania",
+        "tag": "soc2"
+    },
+    {
+        "ramal": 560,
+        "nome": "Roseli",
+        "funcao": "Roseli",
+        "departamento": "Assist. Social",
+        "localizacao": "Abrigo",
+        "tag": "soc1"
+    },
+    {
+        "ramal": 601,
+        "nome": "Ana Paula",
+        "funcao": "Administrativo",
+        "departamento": "Engenharia",
+        "localizacao": "Engenharia",
+        "tag": "p2"
+    },
+    {
+        "ramal": 602,
+        "nome": "Lohary",
+        "funcao": "Administrativo",
+        "departamento": "Engenharia",
+        "localizacao": "Engenharia",
+        "tag": "p2"
+    },
+    {
+        "ramal": 605,
+        "nome": "Carlos",
+        "funcao": "Sec. Meio Amb.",
+        "departamento": "Gest. Amb.",
+        "localizacao": "Bosque Municipal",
+        "tag": "pub1"
+    },
+    {
+        "ramal": 610,
+        "nome": "Nelson Sabino",
+        "funcao": "Recepção",
+        "departamento": "Pátio",
+        "localizacao": "Pátio",
+        "tag": "pub2"
+    },
+    {
+        "ramal": 611,
+        "nome": "Cezinha",
+        "funcao": "Sec. Pátio",
+        "departamento": "Pátio",
+        "localizacao": "Pátio",
+        "tag": "pub2"
+    },
+    {
+        "ramal": 620,
+        "nome": "Erica",
+        "funcao": "Recepção",
+        "departamento": "Pátio",
+        "localizacao": "Cemitério",
+        "tag": "pub1"
+    },
+    {
+        "ramal": 701,
+        "nome": "Gin. Esportes",
+        "funcao": "Sec.",
+        "departamento": "Esportes",
+        "localizacao": "Gin. Esportes",
+        "tag": "pub2"
+    },
+    {
+        "ramal": 710,
+        "nome": "Eduargo Magon/Higor",
+        "funcao": "Previdência",
+        "departamento": "Previdência",
+        "localizacao": "Previdência",
+        "tag": "pub1"
+    }
+]
