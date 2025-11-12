@@ -112,10 +112,10 @@
         "tag": "p2"
     },
         {
-        "ramal": 140,
+        "ramal": 460,
         "nome": "Anderson/Fabio",
-        "funcao": "Almoxarifado",
-        "departamento": "Frotas e Patrimônio",
+        "funcao": "Frotas/Patrimônio/Almoxarifado",
+        "departamento": "Frotas/Patrimônio/Almoxarifado",
         "localizacao": "Almoxarifado",
         "tag": "p1"
     },
