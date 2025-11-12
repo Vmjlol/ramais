@@ -111,12 +111,12 @@
         "localizacao": "Imprensa",
         "tag": "p2"
     },
-    {
-        "ramal": 145,
-        "nome": "Cozinha",
-        "funcao": "Daiane/Silvana",
-        "departamento": "Adm. Geral",
-        "localizacao": "Prefeitura",
+        {
+        "ramal": 140,
+        "nome": "Anderson/Fabio",
+        "funcao": "Almoxarifado",
+        "departamento": "Frotas e Patrimônio",
+        "localizacao": "Almoxarifado",
         "tag": "p1"
     },
     {
@@ -137,7 +137,7 @@
     },
     {
         "ramal": 203,
-        "nome": "Raquel",
+        "nome": "Administrativo",
         "funcao": "Administrativo",
         "departamento": "Saúde",
         "localizacao": "Prefeitura",
@@ -209,7 +209,7 @@
     },
     {
         "ramal": 220,
-        "nome": "Talita",
+        "nome": "Keli",
         "funcao": "Agendamento",
         "departamento": "Saúde",
         "localizacao": "Agendamento",
@@ -225,7 +225,7 @@
     },
     {
         "ramal": 222,
-        "nome": "Maria Eduarda",
+        "nome": "Agendamento",
         "funcao": "Agendamento",
         "departamento": "Saúde",
         "localizacao": "Agendamento",
@@ -976,14 +976,6 @@
         "tag": "p2"
     },
     {
-        "ramal": 460,
-        "nome": "Anderson Butura",
-        "funcao": "Dir. Patrimônio",
-        "departamento": "Frotas e Patrimônio",
-        "localizacao": "Patrimônio",
-        "tag": "p10"
-    },
-    {
         "ramal": 501,
         "nome": "Rosa",
         "funcao": "Administrativo",
@@ -1073,7 +1065,7 @@
     },
     {
         "ramal": 535,
-        "nome": "CRAS",
+        "nome": "Recepção",
         "funcao": "CRAS",
         "departamento": "Assist. Social",
         "localizacao": "CRAS",
@@ -1081,7 +1073,7 @@
     },
     {
         "ramal": 536,
-        "nome": "CRAS",
+        "nome": "Assistente Social",
         "funcao": "CRAS",
         "departamento": "Assist. Social",
         "localizacao": "CRAS",
@@ -1128,7 +1120,7 @@
         "tag": "soc2"
     },
     {
-        "ramal": 560,
+        "ramal": 550,
         "nome": "Roseli",
         "funcao": "Roseli",
         "departamento": "Assist. Social",
