@@ -111,14 +111,6 @@
         "localizacao": "Imprensa",
         "tag": "p2"
     },
-        {
-        "ramal": 460,
-        "nome": "Anderson/Fabio",
-        "funcao": "Frotas/Patrimônio/Almoxarifado",
-        "departamento": "Frotas/Patrimônio/Almoxarifado",
-        "localizacao": "Almoxarifado",
-        "tag": "p1"
-    },
     {
         "ramal": 201,
         "nome": "Elena",
@@ -976,6 +968,14 @@
         "tag": "p2"
     },
     {
+        "ramal": 460,
+        "nome": "Anderson/Fabio",
+        "funcao": "Frotas/Patrimônio/Almoxarifado",
+        "departamento": "Frotas/Patrimônio/Almoxarifado",
+        "localizacao": "Almoxarifado",
+        "tag": "p1"
+    },
+    {
         "ramal": 501,
         "nome": "Rosa",
         "funcao": "Administrativo",
@@ -1015,7 +1015,7 @@
         "localizacao": "Sec. Social",
         "tag": "p2"
     },
-        {
+    {
         "ramal": 510,
         "nome": "Capela Mortuária",
         "funcao": "Capela Mortuária",
