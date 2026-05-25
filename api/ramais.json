@@ -104,6 +104,14 @@
         "tag": "p1"
     },
     {
+        "ramal": 126,
+        "nome": "Thales",
+        "funcao": "Ouvidoria",
+        "departamento": "Cont. Interno",
+        "localizacao": "Cont. Interno",
+        "tag": "p1"
+    },
+    {
         "ramal": 130,
         "nome": "Imprensa",
         "funcao": "Imprensa",
@@ -209,7 +217,7 @@
     },
     {
         "ramal": 221,
-        "nome": "Guilherme",
+        "nome": "Luana",
         "funcao": "Agendamento",
         "departamento": "Saúde",
         "localizacao": "Agendamento",
@@ -793,7 +801,7 @@
     },
     {
         "ramal": 402,
-        "nome": "Samara",
+        "nome": "Administrativo",
         "funcao": "Administrativo",
         "departamento": "Fazenda",
         "localizacao": "Contabilidade",
@@ -801,7 +809,7 @@
     },
     {
         "ramal": 403,
-        "nome": "Bianca",
+        "nome": "Administrativo",
         "funcao": "Administrativo",
         "departamento": "Fazenda",
         "localizacao": "Contabilidade",
