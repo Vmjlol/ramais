@@ -112,14 +112,6 @@
         "tag": "p1"
     },
     {
-        "ramal": 126,
-        "nome": "Thales",
-        "funcao": "Ouvidoria",
-        "departamento": "Cont. Interno",
-        "localizacao": "Cont. Interno",
-        "tag": "p1"
-    },
-    {
         "ramal": 130,
         "nome": "Imprensa",
         "funcao": "Imprensa",
