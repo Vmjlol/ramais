@@ -548,7 +548,7 @@
         "nome": "Marta",
         "funcao": "Administrativo",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
@@ -556,7 +556,7 @@
         "nome": "Gizele",
         "funcao": "Administrativo",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
@@ -564,15 +564,15 @@
         "nome": "Elaine",
         "funcao": "Administrativo",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
         "ramal": 304,
         "nome": "Rosane",
-        "funcao": "Sec. de Educação",
+        "funcao": "Secretária da Educação",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
@@ -580,7 +580,7 @@
         "nome": "Viviane",
         "funcao": "Administrativo",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
@@ -588,7 +588,7 @@
         "nome": "Diemes",
         "funcao": "Administrativo",
         "departamento": "Educação",
-        "localizacao": "Educação",
+        "localizacao": "Casa da Cultura",
         "tag": "e1"
     },
     {
@@ -644,7 +644,7 @@
         "nome": "Katsolene",
         "funcao": "Diretoria",
         "departamento": "Educação",
-        "localizacao": "EM Monteiro L.",
+        "localizacao": "EM Monteiro Lobato",
         "tag": "e2"
     },
     {
@@ -652,7 +652,7 @@
         "nome": "Willian",
         "funcao": "Secretaria",
         "departamento": "Educação",
-        "localizacao": "EM Monteiro L.",
+        "localizacao": "EM Monteiro Lobato",
         "tag": "e2"
     },
     {
@@ -785,8 +785,8 @@
     },
     {
         "ramal": 370,
-        "nome": "Secretaria",
-        "funcao": "Secretaria.",
+        "nome": "Administrativo",
+        "funcao": "Administrativo",
         "departamento": "Educação",
         "localizacao": "Biblioteca Cidadã",
         "tag": "e2"
@@ -1185,10 +1185,10 @@
     },
     {
         "ramal": 701,
-        "nome": "Gin. Esportes",
+        "nome": "Esportes",
         "funcao": "Administrativo",
         "departamento": "Esportes",
-        "localizacao": "Gin. Esportes",
+        "localizacao": "Ginásio de Esportes",
         "tag": "pub2"
     },
     {
