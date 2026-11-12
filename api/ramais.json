@@ -137,7 +137,7 @@
     },
     {
         "ramal": 203,
-        "nome": "Guilherme",
+        "nome": "Administrativo",
         "funcao": "Administrativo",
         "departamento": "Saúde",
         "localizacao": "Prefeitura",
@@ -153,7 +153,7 @@
     },
     {
         "ramal": 205,
-        "nome": "Camila",
+        "nome": "Vinicius",
         "funcao": "Administrativo",
         "departamento": "Saúde",
         "localizacao": "Prefeitura",
@@ -177,7 +177,7 @@
     },
     {
         "ramal": 208,
-        "nome": "Mariely",
+        "nome": "Camila",
         "funcao": "Administrativo",
         "departamento": "Saúde",
         "localizacao": "Prefeitura",
@@ -217,7 +217,7 @@
     },
     {
         "ramal": 221,
-        "nome": "Luana",
+        "nome": "Domini",
         "funcao": "Agendamento",
         "departamento": "Saúde",
         "localizacao": "Agendamento",
@@ -987,39 +987,39 @@
         "ramal": 501,
         "nome": "Rosa",
         "funcao": "Administrativo",
-        "departamento": "Assist. Social",
-        "localizacao": "Assist. Social",
+        "departamento": "Des. Social e Família",
+        "localizacao": "Des. Social e Família",
         "tag": "p2"
     },
     {
         "ramal": 502,
         "nome": "Lourdes",
         "funcao": "Administrativo",
-        "departamento": "Assist. Social",
-        "localizacao": "Assist. Social",
+        "departamento": "Des. Social e Família",
+        "localizacao": "Des. Social e Família",
         "tag": "p2"
     },
     {
         "ramal": 503,
         "nome": "Social",
         "funcao": "Administrativo",
-        "departamento": "Assist. Social",
-        "localizacao": "Assist. Social",
+        "departamento": "Des. Social e Família",
+        "localizacao": "Des. Social e Família",
         "tag": "p3"
     },
     {
         "ramal": 504,
         "nome": "Aline",
         "funcao": "Administrativo",
-        "departamento": "Assist. Social",
-        "localizacao": "Assist. Social",
+        "departamento": "Des. Social e Família",
+        "localizacao": "Des. Social e Família",
         "tag": "p2"
     },
     {
         "ramal": 505,
         "nome": "Sueli Peres",
         "funcao": "Sec. Social",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Sec. Social",
         "tag": "p2"
     },
@@ -1027,7 +1027,7 @@
         "ramal": 510,
         "nome": "Capela Mortuária",
         "funcao": "Capela Mortuária",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Capela Mortuária",
         "tag": "soc2"
     },
@@ -1035,7 +1035,7 @@
         "ramal": 520,
         "nome": "Sueli",
         "funcao": "Dir. CECON",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CECON",
         "tag": "soc1"
     },
@@ -1043,7 +1043,7 @@
         "ramal": 525,
         "nome": "Silvana",
         "funcao": "Sec. CCCA",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CCCA",
         "tag": "soc2"
     },
@@ -1051,7 +1051,7 @@
         "ramal": 526,
         "nome": "Valdir",
         "funcao": "CCCA",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CCCA",
         "tag": "soc2"
     },
@@ -1059,7 +1059,7 @@
         "ramal": 530,
         "nome": "Recepção",
         "funcao": "Recepção",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Conselho Tutelar",
         "tag": "soc1"
     },
@@ -1067,7 +1067,7 @@
         "ramal": 531,
         "nome": "Conselheiros",
         "funcao": "Conselheiros",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Conselho Tutelar",
         "tag": "soc1"
     },
@@ -1075,7 +1075,7 @@
         "ramal": 535,
         "nome": "Recepção",
         "funcao": "CRAS",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CRAS",
         "tag": "soc2"
     },
@@ -1083,7 +1083,7 @@
         "ramal": 536,
         "nome": "Assistente Social",
         "funcao": "CRAS",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CRAS",
         "tag": "soc2"
     },
@@ -1091,7 +1091,7 @@
         "ramal": 537,
         "nome": "Karina",
         "funcao": "CRAS",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CRAS",
         "tag": "soc2"
     },
@@ -1099,7 +1099,7 @@
         "ramal": 540,
         "nome": "Recepção",
         "funcao": "CREAS",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CREAS",
         "tag": "soc1"
     },
@@ -1107,7 +1107,7 @@
         "ramal": 541,
         "nome": "Multidisciplinar",
         "funcao": "CREAS",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "CREAS",
         "tag": "soc1"
     },
@@ -1115,7 +1115,7 @@
         "ramal": 545,
         "nome": "Paulinho",
         "funcao": "NF Prod. Rural",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Portal da Cidadania",
         "tag": "soc2"
     },
@@ -1123,7 +1123,7 @@
         "ramal": 546,
         "nome": "Daniel",
         "funcao": "Junta Militar",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Portal da Cidadania",
         "tag": "soc2"
     },
@@ -1131,7 +1131,7 @@
         "ramal": 550,
         "nome": "Roseli",
         "funcao": "Roseli",
-        "departamento": "Assist. Social",
+        "departamento": "Des. Social e Família",
         "localizacao": "Abrigo",
         "tag": "soc1"
     },
