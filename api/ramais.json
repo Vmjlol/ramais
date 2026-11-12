@@ -4,7 +4,7 @@
         "nome": "Valtinho Peres",
         "funcao": "Prefeito",
         "departamento": "Gabinete",
-        "localizacao": "Prefeito",
+        "localizacao": "Gabinete do Prefeito",
         "tag": "p1"
     },
     {
@@ -18,7 +18,7 @@
     {
         "ramal": 104,
         "nome": "Toninho",
-        "funcao": "Sec. Adm Geral",
+        "funcao": "Secretário de Adm. Geral",
         "departamento": "Gabinete",
         "localizacao": "Gabinete",
         "tag": "p1"
@@ -35,30 +35,30 @@
         "ramal": 110,
         "nome": "Cleber",
         "funcao": "Diretor TI",
-        "departamento": "TI",
-        "localizacao": "TI",
+        "departamento": "Tecnologia da Informação",
+        "localizacao": "Tecnologia da Informação",
         "tag": "p2"
     },
     {
         "ramal": 111,
         "nome": "Valter",
         "funcao": "Administrativo",
-        "departamento": "TI",
-        "localizacao": "TI",
+        "departamento": "Tecnologia da Informação",
+        "localizacao": "Tecnologia da Informação",
         "tag": "p2"
     },
     {
         "ramal": 112,
         "nome": "Fernando",
         "funcao": "Administrativo",
-        "departamento": "TI",
-        "localizacao": "TI",
+        "departamento": "Tecnologia da Informação",
+        "localizacao": "Tecnologia da Informação",
         "tag": "p2"
     },
     {
         "ramal": 115,
-        "nome": "Marcio/Paula",
-        "funcao": "Advogados",
+        "nome": "Marcio",
+        "funcao": "Advogado",
         "departamento": "Jurídico",
         "localizacao": "Jurídico",
         "tag": "p1"
@@ -99,16 +99,16 @@
         "ramal": 125,
         "nome": "Thales",
         "funcao": "Ouvidoria",
-        "departamento": "Cont. Interno",
-        "localizacao": "Cont. Interno",
+        "departamento": "Controle Interno",
+        "localizacao": "Controle Interno",
         "tag": "p1"
     },
     {
         "ramal": 126,
         "nome": "Valdemir",
-        "funcao": "Cont. Interno",
-        "departamento": "Cont. Interno",
-        "localizacao": "Cont. Interno",
+        "funcao": "Controle Interno",
+        "departamento": "Controle Interno",
+        "localizacao": "Controle Interno",
         "tag": "p1"
     },
     {
@@ -146,9 +146,9 @@
     {
         "ramal": 204,
         "nome": "Leuktembergg",
-        "funcao": "Sec. de Saúde",
+        "funcao": "Secretário da Saúde",
         "departamento": "Saúde",
-        "localizacao": "Sec. Saúde",
+        "localizacao": "Saúde",
         "tag": "p2"
     },
     {
@@ -858,9 +858,9 @@
     {
         "ramal": 409,
         "nome": "Simone/Nayara",
-        "funcao": "Sec. da Fazenda",
+        "funcao": "Secretária da Fazenda",
         "departamento": "Fazenda",
-        "localizacao": "Sec. Fazenda",
+        "localizacao": "Fazenda",
         "tag": "p1"
     },
     {
@@ -873,8 +873,8 @@
     },
     {
         "ramal": 421,
-        "nome": "Auditor Fiscal",
-        "funcao": "Auditoria",
+        "nome": "Fernando",
+        "funcao": "Auditor Fiscal",
         "departamento": "Tributação",
         "localizacao": "Tributação",
         "tag": "p2"
@@ -889,7 +889,7 @@
     },
     {
         "ramal": 423,
-        "nome": "Ana Paula",
+        "nome": "Administrativo",
         "funcao": "Administrativo",
         "departamento": "Tributação",
         "localizacao": "Tributação",
@@ -914,9 +914,9 @@
     {
         "ramal": 426,
         "nome": "Crézio",
-        "funcao": "Dir. Trib/Fisc",
+        "funcao": "Diretor Trib/Fisc",
         "departamento": "Tributação",
-        "localizacao": "Dir. Tributação",
+        "localizacao": "Tributação",
         "tag": "p2"
     },
     {
@@ -1005,7 +1005,7 @@
         "funcao": "Administrativo",
         "departamento": "Desenv. Social e Família",
         "localizacao": "Desenv. Social e Família",
-        "tag": "p3"
+        "tag": "p2"
     },
     {
         "ramal": 504,
@@ -1018,9 +1018,9 @@
     {
         "ramal": 505,
         "nome": "Sueli Peres",
-        "funcao": "Sec. Social",
+        "funcao": "Secretária Social",
         "departamento": "Desenv. Social e Família",
-        "localizacao": "Sec. Social",
+        "localizacao": "Desenv. Social e Família",
         "tag": "p2"
     },
     {
@@ -1042,7 +1042,7 @@
     {
         "ramal": 525,
         "nome": "Silvana",
-        "funcao": "Sec. CCCA",
+        "funcao": "Administrativo",
         "departamento": "Desenv. Social e Família",
         "localizacao": "CCCA",
         "tag": "soc2"
@@ -1154,8 +1154,8 @@
     {
         "ramal": 605,
         "nome": "Carlos",
-        "funcao": "Sec. Meio Amb.",
-        "departamento": "Gest. Amb.",
+        "funcao": "Secretário do Meio Ambiente",
+        "departamento": "Gestão Ambiental",
         "localizacao": "Bosque Municipal",
         "tag": "pub1"
     },
@@ -1170,7 +1170,7 @@
     {
         "ramal": 611,
         "nome": "Cezinha",
-        "funcao": "Sec. Pátio",
+        "funcao": "Secretário",
         "departamento": "Pátio",
         "localizacao": "Pátio",
         "tag": "pub2"
@@ -1186,7 +1186,7 @@
     {
         "ramal": 701,
         "nome": "Gin. Esportes",
-        "funcao": "Sec.",
+        "funcao": "Administrativo",
         "departamento": "Esportes",
         "localizacao": "Gin. Esportes",
         "tag": "pub2"
